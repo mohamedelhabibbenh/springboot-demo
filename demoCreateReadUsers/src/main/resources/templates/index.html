@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+<head>
+<meta charset="ISO-8859-1">
+<title>Create read users</title>
+</head>
+<body>
+	<form action="create_user" method="post">
+	        <input type="text" name="name" placeholder="your name...">
+        	<input type="password" name="password" placeholder="your password...">
+        	<input type="submit" value="Register">
+	</form>
+	<br>
+	<form action="users" method="get">
+        	<input type="submit" value="Show users">
+	</form>
+</body>
+</html>
